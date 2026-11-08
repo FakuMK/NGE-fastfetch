@@ -2,7 +2,6 @@
 
 [![fastfetch](https://img.shields.io/badge/fastfetch-2.x-blue?style=for-the-badge)](https://github.com/fastfetch-cli/fastfetch)
 [![JSONC](https://img.shields.io/badge/config-jsonc-yellow?style=for-the-badge)](https://github.com/fastfetch-cli/fastfetch)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 
 Configuración de **fastfetch** con temática **Neon Genesis Evangelion** — HUD de NERV, paleta Unit-01 + NERV, etiquetas en japonés e inglés.
 
@@ -12,19 +11,31 @@ Banner tipo HUD de NERV con módulos de sistema organizados en secciones: **PILO
 
 ## Instalación
 
+Descarga el paquete desde los [releases](https://github.com/FakuMK/NGE-fastfetch/releases) y extraelo:
+
 ```bash
-git clone https://github.com/FakuMK/NGE-fastfetch.git
-cd fastfetch-nge-config
+# Descargar el paquete
+wget https://github.com/FakuMK/NGE-fastfetch/releases/latest/download/fastfetch-nge-config.tar.gz
+
+# Extraer
+tar xzf fastfetch-nge-config.tar.gz
+
+# Instalar la configuración
 mkdir -p ~/.config/fastfetch
 cp nge.jsonc ~/.config/fastfetch/config.jsonc
+
+# Ejecutar
 fastfetch
 ```
 
 O directamente, sin instalar:
 
 ```bash
+tar xzf fastfetch-nge-config.tar.gz
 fastfetch --config nge.jsonc
 ```
+
+El archivo `fastfetch-nge-config.tar.gz` ya contiene `nge.jsonc` (la configuración) y un `README.md` con instrucciones de uso local.
 
 ## Módulos
 
