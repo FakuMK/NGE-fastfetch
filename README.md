@@ -50,6 +50,11 @@ El archivo `fastfetch-nge-config.tar.gz` ya contiene `nge.jsonc` (la configuraci
 
 Edita `nge.jsonc` para cambiar colores, módulos o el banner ASCII. La configuración usa el [esquema oficial de fastfetch](https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json).
 
+## Screenshots
+
+<img width="952" height="1030" alt="fast-evangelion" src="https://github.com/user-attachments/assets/7339e354-22df-4a92-a939-227c2cc66dac" />
+
+
 ## Requisitos
 
 - [fastfetch](https://github.com/fastfetch-cli/fastfetch) ≥ 2.70
