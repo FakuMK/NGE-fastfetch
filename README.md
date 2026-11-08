@@ -13,7 +13,7 @@ Banner tipo HUD de NERV con módulos de sistema organizados en secciones: **PILO
 ## Instalación
 
 ```bash
-git clone https://github.com/TU_USUARIO/fastfetch-nge-config.git
+git clone https://github.com/FakuMK/NGE-fastfetch.git
 cd fastfetch-nge-config
 mkdir -p ~/.config/fastfetch
 cp nge.jsonc ~/.config/fastfetch/config.jsonc
@@ -42,11 +42,5 @@ Edita `nge.jsonc` para cambiar colores, módulos o el banner ASCII. La configura
 ## Requisitos
 
 - [fastfetch](https://github.com/fastfetch-cli/fastfetch) ≥ 2.70
-
-## Licencia
-
-MIT
-
----
 
 Hecho con ❤️ por facu
